@@ -1,0 +1,12 @@
+Datoteke dwqa-hr.mo i dwqa-hr kopirati u folder /wp-content/plugins/dw-question-answer/languages/
+
+Ne radi?
+
+U wp-config.php mora biti postavljen hrvatski jezik
+
+Preuzmite i otvorite datoteku wp-config.php iz vaše instalacije WordPressa.
+Liniju define ('WPLANG', ''); zamijenite sa define ('WPLANG', 'hr');
+Datoteku wp-config.php kopirajte nazad na vaš web server.
+
+Detaljnije o lokalizaciji WordPressa na http://hr.wordpress.org/
+
